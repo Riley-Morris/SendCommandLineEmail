@@ -14,7 +14,6 @@ while True:
         status = conn.login(username, password)
         #break out of loop with success
         break
-
     except:
             print('Login failed, try again...\n\n')
             pass
