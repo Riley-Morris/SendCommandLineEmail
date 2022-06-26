@@ -29,7 +29,7 @@ while True:
             recipient = (input(f'Who is recipient #{i}?\n> '))
             #send the email
             conn.sendmail(username, recipient, f'Subject:{subject}\n\n {Body}')
-            break
+        break
     except:
         print('Please try again, something went wrong\n')
 #quit the connection
